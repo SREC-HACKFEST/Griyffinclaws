@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Register Admin</string>
+    <string name="admin_id">Admin ID</string>
+
+    <string-array name="universities">
+        <item>Choose University</item>
+        <item>Sri Ramakrishna Engineering College</item>
+        <item>Kumaraguru Institute of Technology</item>
+        <item>Sri Ramakrishna Institute of Technology</item>
+        <item>Amrita University of Science &amp; Technology</item>
+        <item>SNS Institute of Technology</item>
+    </string-array>
+
+    <string-array name="departments">
+        <item>Choose Department</item>
+        <item>Computer Science Engineering</item>
+        <item>Electronics and Communication Engineering</item>
+        <item>Electronics and Electrical Engineering</item>
+        <item>Mechanical Engineering</item>
+        <item>Bio Medical Engineering</item>
+    </string-array>
+</resources>

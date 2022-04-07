@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:top="0dp"
+        android:right="0dp"
+        android:bottom="0dp"
+        android:left="0dp"
+        android:drawable="@color/white">
+    </item>
+
+    <item
+        android:drawable="@drawable/ic_baseline_supervisor_account_24"
+        android:gravity="center"
+        android:width="200dp"
+        android:height="200dp">
+    </item>
+
+</layer-list>
