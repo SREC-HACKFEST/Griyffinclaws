@@ -1,22 +1,21 @@
 <resources>
     <string name="app_name">Register Admin</string>
-    <string name="admin_id">Admin ID</string>
 
     <string-array name="universities">
         <item>Choose University</item>
-        <item>Sri Ramakrishna Engineering College</item>
-        <item>Kumaraguru Institute of Technology</item>
-        <item>Sri Ramakrishna Institute of Technology</item>
-        <item>Amrita University of Science &amp; Technology</item>
-        <item>SNS Institute of Technology</item>
+        <item>The University of Lahore</item>
+        <item>National University of Science &amp; Technology</item>
+        <item>Arid Agriculture University</item>
+        <item>Capital University of Science &amp; Technology</item>
+        <item>University of Engineering &amp; Technology</item>
     </string-array>
 
     <string-array name="departments">
         <item>Choose Department</item>
-        <item>Computer Science Engineering</item>
-        <item>Electronics and Communication Engineering</item>
-        <item>Electronics and Electrical Engineering</item>
-        <item>Mechanical Engineering</item>
-        <item>Bio Medical Engineering</item>
+        <item>BS Computer Science</item>
+        <item>BS Software Engineering</item>
+        <item>BS Electrical Engineering</item>
+        <item>BS Mechanical Engineering</item>
+        <item>BS Medical Sciences</item>
     </string-array>
 </resources>

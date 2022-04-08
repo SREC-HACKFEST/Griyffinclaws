@@ -4,7 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/background"
     tools:context=".MainActivity"
     android:fillViewport="true">
 
@@ -19,13 +18,8 @@
             android:id="@+id/heading"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="80dp"
-            android:layout_marginLeft="95dp"
-            android:layout_marginEnd="80dp"
-            android:layout_alignParentTop="true"
-            android:gravity="center"
+            android:layout_centerHorizontal="true"
             android:text="Register Admin"
-            android:textColor="@color/white"
             android:textSize="24sp"
             android:textStyle="bold" />
 
@@ -35,8 +29,6 @@
             android:layout_height="wrap_content"
             android:text="Attendance Management System"
             android:layout_below="@id/heading"
-            android:textColor="@color/white"
-            android:textSize="8sp"
             android:layout_centerHorizontal="true"/>
 
         <EditText
@@ -46,10 +38,8 @@
             android:layout_below="@id/title"
             android:layout_marginTop="40dp"
             android:padding="15dp"
-            android:textColor="@color/black"
-            android:textSize="10sp"
-            android:background="@drawable/round_corner3"
-            android:hint="@string/admin_id"
+            android:background="@drawable/edittext_bg"
+            android:hint="Unique Admin ID"
             android:singleLine="true"
             android:maxLines="1"
             android:inputType="number"/>
@@ -60,10 +50,8 @@
             android:layout_height="wrap_content"
             android:layout_below="@id/unique_id"
             android:layout_marginTop="10dp"
-            android:textColor="@color/black"
-            android:textSize="10sp"
             android:padding="15dp"
-            android:background="@drawable/round_corner3"
+            android:background="@drawable/edittext_bg"
             android:hint="Name"
             android:singleLine="true"
             android:maxLines="1"/>
@@ -72,10 +60,8 @@
             android:id="@+id/uni"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@drawable/round_corner3"
-            android:textColor="@color/black"
-            android:textSize="10sp"
-            android:padding="15dp"
+            android:background="@drawable/edittext_bg"
+            android:padding="5dp"
             android:layout_below="@id/name"
             android:layout_marginTop="10dp">
 
@@ -91,10 +77,8 @@
             android:id="@+id/dept"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@drawable/round_corner3"
-            android:textColor="@color/black"
-            android:textSize="10sp"
-            android:padding="15dp"
+            android:background="@drawable/edittext_bg"
+            android:padding="5dp"
             android:layout_below="@id/uni"
             android:layout_marginTop="10dp">
 
@@ -113,9 +97,7 @@
             android:layout_below="@id/dept"
             android:layout_marginTop="10dp"
             android:padding="15dp"
-            android:textColor="@color/black"
-            android:textSize="10sp"
-            android:background="@drawable/round_corner3"
+            android:background="@drawable/edittext_bg"
             android:hint="Email"
             android:inputType="textEmailAddress"
             android:singleLine="true"
@@ -128,9 +110,7 @@
             android:layout_below="@id/email"
             android:layout_marginTop="10dp"
             android:padding="15dp"
-            android:textColor="@color/black"
-            android:textSize="10sp"
-            android:background="@drawable/round_corner3"
+            android:background="@drawable/edittext_bg"
             android:hint="Password"
             android:inputType="textPassword"
             android:singleLine="true"
@@ -139,17 +119,15 @@
         <Button
             android:id="@+id/register"
             android:layout_width="match_parent"
-            android:layout_height="52dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_bg"
             android:layout_below="@id/password"
             android:layout_marginTop="40dp"
-            android:layout_marginBottom="20dp"
-            android:background="@drawable/round_corner"
-            android:gravity="center"
-
             android:text="Register"
             android:textColor="#FFFFFF"
-            android:textSize="20sp"
-            android:textStyle="bold" />
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="20dp"/>
 
     </RelativeLayout>
 
